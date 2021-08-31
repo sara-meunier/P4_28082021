@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -675,9 +675,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/*changement de la police de 11 à 16px*/
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1052,8 +1052,16 @@ blockquote {
     margin:auto;
 }
 
+h2 {
+    max-width:600px;
+    margin:auto;
+}
+
 @media screen and (max-width:767px){
     blockquote {
+        width:90%;
+    }
+    h2 {
         width:90%;
     }
 }
